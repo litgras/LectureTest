@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:actionViewClass="android.widget.SearchView"/>
+    <item
+        android:id="@+id/progress"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/myinfo">
+        <menu>
+            <item
+                android:id="@+id/item_myorder"
+                android:title="@string/myorder"/>
+            <item
+                android:id="@+id/item_changepsw"
+                android:title="@string/changepsw"/>
+            <item
+                android:id="@+id/item_signin"
+                android:title="@string/signin"/>
+            <item
+                android:id="@+id/item_logout"
+                android:title="@string/logout"/>
+            <item
+                android:id="@+id/item_exit"
+                android:title="@string/exit"/>
+        </menu>
+    </item>
+</menu>
